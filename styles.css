@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --purple: hsl(228, 45%, 44%);
+  --Light_red: hsl(0, 100%, 67%);
+  --Off_white: hsl(0, 0%, 94%);
+  --Light_grey: hsl(0, 0%, 86%);
+  --Smokey_grey: hsl(0, 1%, 44%);
+  --Off_black: hsl(0, 0%, 8%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+  height: 100vh;
+  background-color: var(--Light_grey);
+}
+
+.card {
+  background-color: white;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom-right-radius: 50px;
+}
+
+.inputscard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.input {
+  margin: 0 15px;
+  text-align: center;
+}
+
+.input label {
+  color: var(--Smokey_grey);
+  font-weight: 700;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.error {
+  border: 5px solid var(--Light_red);
+}
+
+button {
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.results div {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.results div span {
+  color: hsl(259, 100%, 65%);
+}
